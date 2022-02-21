@@ -95,4 +95,5 @@ return array(
     |
     */
     // 'guzzle_options' => []
+    'enable_pkce' => true
 );
