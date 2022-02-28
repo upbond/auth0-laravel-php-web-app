@@ -20,7 +20,7 @@ class Auth0IndexController extends Controller
             return redirect()->intended('/');
         }
 
-        return App::make('auth0')->login(
+        return App::make('upbond')->login(
             null,
             null,
             ['scope' => 'openid name email email_verified'],

@@ -150,7 +150,8 @@ return [
         /*
          * Package Service Providers...
          */
-        Auth0\Login\LoginServiceProvider::class,
+        // Auth0\Login\LoginServiceProvider::class,
+        Upbond\Auth\Login\LoginServiceProvider::class,
 
         /*
          * Application Service Providers...
